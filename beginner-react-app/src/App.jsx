@@ -1,6 +1,7 @@
 import Container from './Container.jsx'
 import ColorPicker from './ColorPicker.jsx'
 import Counter from './Counter.jsx'
+import ToDoList from './ToDoList.jsx'
 
 function App() {
   
@@ -12,7 +13,9 @@ function App() {
     <Container title="Color Picker">
       <ColorPicker />
     </Container>
-     
+    <Container title="To Do List">
+      <ToDoList />
+    </Container>
     </>
   )
 }

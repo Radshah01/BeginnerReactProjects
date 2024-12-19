@@ -1,3 +1,4 @@
+/*CSS for Parent Component*/
 body{
   background-color: rgb(27, 27, 27);
   padding: 2rem 0;
@@ -21,7 +22,7 @@ body{
   margin: 0.5rem 0;
 }
 
-
+/*CSS for Child (Counter) Component*/
 .count-display{
   font-size: 9rem;
   margin: 0 auto 0.8rem;
@@ -77,22 +78,7 @@ body{
   bottom: 3px;
 }
 
-.color-picker{
-  margin: 2em 10% 1em;
-  padding: 40px;
-  text-align: center;
-  background-color: rgb(236, 236, 236);
-  border: 4px solid grey;
-  justify-content: center;
-  border-radius: 20px;
-}
-
-
-.title{
-  font-weight: bold;
-  font-size: 2em;
-}
-
+/*CSS for Child: (Color Picker) Component*/
 .color-section{
   border-radius: 20px;
   height: 200px;
@@ -113,7 +99,6 @@ font-size: 1.2em;
 margin: 3em 0 1em;
 }
 
-
 .picker-section label{
   display: block;
   margin-bottom: 1em;
@@ -125,5 +110,92 @@ margin: 3em 0 1em;
   height: 60px;
   border: none;
 
+}
+
+/*CSS for Child (To Do List) Component*/
+.user-section{
+  margin: 2.5em 0 1em;
+  position: relative;
+}
+
+.txtInput{
+  font-size: 1.4em;
+  padding: 14px 20px;
+  border-radius: 30px;
+  width: 280px;
+  display: inline-block;
+  border: 5px solid rgb(255, 255, 255)
+}
+
+.btnAdd{
+  padding: 1px 12px;
+  margin: auto;
+  border-radius: 50%;
+  font-weight: bold;
+  font-size: 2em;
+  cursor: pointer;
+  position: absolute;
+  right: 145px;
+  top: 9px;
+  display: flex;
+  background-color: rgb(62, 183, 98);
+  border: 4px solid rgb(7, 103, 53);
+  color: white;
+}
+
+.ul-todo{
+  list-style-type: none;
+  padding: 0;     
+  margin: 0;            
+  display: flex;       
+  justify-content: center; 
+  align-items: center;  
+  flex-direction: column;
+}
+
+.task-item{
+  background-color: rgb(242, 243, 240);
+  margin: 0.8em auto;
+  color: black;
+  padding: 10px 20px;
+  width: 380px;
+  border-radius: 5px;
+  border: 5px solid rgb(204, 204, 204);
+  display: flex;       
+  justify-content: center; 
+  align-items: center;  
+
+}
+
+
+.task-item p{
+  margin: 0 0 0 25px;
+  padding: 0;
+  font-size: 1.3em;
+  font-weight: bold;
+  display: flex;
+  flex: 1;
+  
+}
+
+.task-button{
+  padding: 15px 10px;
+  margin-left: 10px;
+  font-size: 1em;
+}
+
+.task-button:nth-of-type(1){
+  background-color: rgb(182, 20, 20);
+  color: white;
+}
+
+.task-button:nth-of-type(2){
+  background-color: rgb(20, 101, 182);
+  color: white;
+}
+
+.task-button:nth-of-type(3){
+  background-color:  rgb(20, 101, 182);
+  color: white;
 }
 
