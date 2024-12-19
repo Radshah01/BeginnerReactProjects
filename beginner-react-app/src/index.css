@@ -179,23 +179,24 @@ margin: 3em 0 1em;
 }
 
 .task-button{
-  padding: 15px 10px;
-  margin-left: 10px;
-  font-size: 1em;
+  padding: 15px;
+  margin-left: 8px;
+  font-size: 0.9em;
+  border: none;
 }
 
 .task-button:nth-of-type(1){
-  background-color: rgb(182, 20, 20);
+  background-color: rgb(226, 56, 56);
   color: white;
 }
 
 .task-button:nth-of-type(2){
-  background-color: rgb(20, 101, 182);
+  background-color: rgb(60, 148, 235);
   color: white;
 }
 
 .task-button:nth-of-type(3){
-  background-color:  rgb(20, 101, 182);
+  background-color: rgb(60, 148, 235);
   color: white;
 }
 
