@@ -2,6 +2,7 @@ import Container from './Container.jsx'
 import ColorPicker from './ColorPicker.jsx'
 import Counter from './Counter.jsx'
 import ToDoList from './ToDoList.jsx'
+import Clock from './Clock.jsx'
 
 function App() {
   
@@ -15,6 +16,9 @@ function App() {
     </Container>
     <Container title="To Do List">
       <ToDoList />
+    </Container>
+    <Container title="Digital Clock">
+      <Clock/>
     </Container>
     </>
   )
